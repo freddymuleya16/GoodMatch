@@ -2,16 +2,14 @@
   "name": "goodmatch",
   "version": "1.0.0",
   "description": "A program that accepts two strings and calculates the match percentage as a",
-  "main": "lib/index.js",
-  "types": "lib",
+  "main": "app.js",
   "scripts": {
-    "test": "\\",
-    "build": "tsc -p .",
-    "start": "tsc && node lib/index.js"
+    "build": "snowpack build",
+    "start": "snowpack dev"
   },
   "author": "Freddy Muleya",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "snowpack": "^3.8.8"
   }
 }
