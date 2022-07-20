@@ -24,10 +24,10 @@ matchBtn.addEventListener("click", (e: Event) => {
   var matchResult = isMatch(name1Input.value, name2Input.value);
   if (matchResult >= 80) {
     resultCard.innerHTML = (
-      `<p>${name1Input.value} matches ${name2Input.value}` +
+      `${name1Input.value} matches ${name2Input.value}` +
         " " +
         matchResult +
-        "%, good match</p>"
+        "%, good match"
     );
   } else {
     resultCard.innerHTML=(
@@ -134,7 +134,6 @@ csvForm.addEventListener("submit", (e: Event) => {
     }
     var endTime = performance.now();
     logs += "Execution Ends\n";
-    debugger;
     logs += `Total Execution Time ${endTime - startTime} milliseconds\n`;
     saveData(logs, "logs.txt");
   };
