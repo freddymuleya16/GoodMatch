@@ -14,7 +14,7 @@ First, install dependencies server:
 npm i
 ```
 
-secondly, run the application:
+Secondly, run the application:
 
 ```bash
 npm run start
