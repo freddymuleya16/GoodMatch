@@ -1,0 +1,17 @@
+{
+  "name": "goodmatch",
+  "version": "1.0.0",
+  "description": "A program that accepts two strings and calculates the match percentage as a",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "test": "\\",
+    "build": "tsc -p .",
+    "start": "tsc && node lib/index.js"
+  },
+  "author": "Freddy Muleya",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
