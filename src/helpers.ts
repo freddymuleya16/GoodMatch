@@ -7,6 +7,6 @@ export function breakLargeNumber(numberList: number[]):number[] {
     })
 }
 export function validate(name:string){
-    var re = new RegExp("^([a-zA-Z])$");
+    var re = new RegExp(/([a-zA-Z])+$/g);
     return !name.match(re);
 }
